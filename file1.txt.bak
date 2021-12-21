@@ -10,4 +10,5 @@ A quick aside: git and GitHub are not the same thing.
  are referred to in git-speak as “remotes”, and all 
  are completely optional. You do not need to use a
  remote to use git, but it will make sharing your code 
+ 
  with others easier.
