@@ -1,0 +1,55 @@
+THIS IS MY THIRD FILE 
+<!DOCTYPE html>
+  <html>
+      <head>
+          <meta charset='utf-8'>
+          <title>Employee Form</title>
+          <style> 
+              .X{border-style: blue}
+              .box{
+                  padding: 20px 200px;
+                  height:auto;
+                  width:auto;
+                  border-width: auto;
+                  border-style: solid;
+                 
+                  text-align:left;  
+                  font-family: "Times new roman" ;
+                  font-size: 14px;
+                     margin:20px;
+               
+           
+             border-color:#92a8d1;   
+              }    
+              
+              p{color:black}
+          </style>
+      </head>
+      <body>
+         <form>
+             <h1>Employee Details</h1>
+             <div class="box"
+             <label for="EmployeeNumber" >EmployeeNumber:</label>
+             <input type="text" name "EmployeeNumber"  id="EmployeeNumber" placeholder="emp no of the trainee" size="30px" maxlength="6" style="border-color: blue">
+             <br/>     
+             <br/>
+             <label for="TrainerName" >TrainerName:</label>
+             <input type="text" name "TrainerName" id="TrainerName" placeholder="Trainer Name" size="30px" maxlength="30" style="border-color: blue">
+             <p>select your course</p>
+               <p>valid modules for web programming domain </p>
+             <select name "coursemodule" id="coursemodule"></select>
+             <option value="i.UI">i.UI</option>
+             <option value="Client Side Scripting">ii.Client Side Scripting</option>
+             <option value="react">iii.React</option>
+             <p>valid modules for java and cloud domain</p>
+              <select name "coursemodule" id="coursemodule"></select>
+             <option value="core concepts">iv.Core concepts</option>
+             <option value="JDBC">v.JDBC</option>
+             <option value="AWS">vi.AWS</option>
+             <input type="submit"> <input "typle="submit" value="clear">
+             </div>
+          </form>
+          
+      </body>
+
+</html>
